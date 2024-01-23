@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>FCC Project Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+          <img
+            src="https://img.freepik.com/free-vector/cute-dog-logo_1051-3349.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais"
+            alt="dog-logo"
+            id="header-img"
+          />
+          <span class="the-product">Duke's Delights</span>
+        </div>
+        <ul class="nav-link">
+          <li>
+            <a
+              href="#features"
+              class="nav-link"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#what-to-expect"
+              class="nav-link"
+              >What to expect</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="nav-link"
+              >Pricing</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="email-section">
+      <h2>Learn more about future productions and promotions!</h2>
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        id="form"
+      ></form>
+      <input
+        type="email"
+        placeholder="Enter your email address"
+        required
+        name="email"
+      />
+      <input
+        type="submit"
+        id="submit"
+        value="GET STARTED"
+      />
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="ri-verified-badge-fill ri-4x icon"></i>
+        <div>
+          <h2>Premium Materials</h2>
+          <p>
+            Duke's dog treats and toys are made from the highest quality of
+            materials to ensure ur pet stays safe and healthy.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-global-fill ri-4x icon"></i>
+        <div>
+          <h2>Fast World Wide Shipping</h2>
+          <p>
+            We ship across the globe and guarantee your order will arrive within
+            3-5 business days.
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-service-fill ri-4x icon"></i>
+        <div>
+          <h2>100% Satisfaction Guarantee</h2>
+          <p>
+            If your pet isnt 100% satisfied with your order, we will replace the
+            order with a product of your choice.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+      <iframe
+        id="video"
+        height="400"
+        src="https://www.youtube.com/embed/q5chhdaNQ88?si=c5cJ45LapB3IZ97V"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="for_sale">
+      <h2>For Sale</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="product">Squeaky Balls</div>
+            <ul>
+              <li class="content">Indestructible</li>
+              <li class="content">Soft</li>
+              <li class="content">Scent to improve dog breath</li>
+            </ul>
+            <div class="flex">
+              <p class="main-price price">$19.95</p>
+              <p class="old-price price">$28.75</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+    </section>
+  </body>
+</html>
