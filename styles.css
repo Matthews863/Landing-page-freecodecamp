@@ -34,7 +34,7 @@ body {
 }
 .nav-link a {
   text-decoration: none;
-  color: orange;
+  color: black;
   padding: 0 10px;
 }
 .logo-container {
@@ -110,14 +110,42 @@ h2 {
   border-radius: 10px 10px 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+
+.product-image1 {
+  background-color: var(--pale);
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  border: 1px solid var(--text);
+  border-radius: 10px 10px 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 li {
   list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .product1 {
   background-image: url(https://m.media-amazon.com/images/I/81L2j0LyzDL.jpg);
 }
+
+.product2 {
+  background-image: url(https://m.media-amazon.com/images/I/71gUaaYXmjL._AC_UF1000,1000_QL80_.jpg);
+}
+
+.product3 {
+  background-image: url(https://target.scene7.com/is/image/Target/GUEST_3a865fb5-238e-4bcd-a07c-50d5e302533e?wid=488&hei=488&fmt=pjpeg);
+}
+
 .card {
   background-color: var(--white);
   border-radius: 10px;
@@ -178,6 +206,35 @@ li {
   display: flex;
   margin-bottom: 10px;
   text-align: center;
+}
+
+footer {
+  background-color: var(--white);
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.footer-a {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: var(--text);
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media only screen and (min-width: 600px) {

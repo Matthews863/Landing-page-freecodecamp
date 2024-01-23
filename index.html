@@ -50,7 +50,7 @@
           </li>
           <li>
             <a
-              href="#what-to-expect"
+              href="#audio"
               class="nav-link"
               >What to expect</a
             >
@@ -70,18 +70,21 @@
       <form
         action="https://www.freecodecamp.com/email-submit"
         id="form"
-      ></form>
-      <input
-        type="email"
-        placeholder="Enter your email address"
-        required
-        name="email"
-      />
-      <input
-        type="submit"
-        id="submit"
-        value="GET STARTED"
-      />
+      >
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+          name="email"
+          size="25"
+        />
+        <input
+          type="submit"
+          id="submit"
+          value="GET STARTED"
+        />
+      </form>
     </section>
 
     <section id="features">
@@ -129,9 +132,12 @@
     </section>
     <section id="for_sale">
       <h2>For Sale</h2>
-      <div class="product-cards">
+      <div
+        class="product-cards"
+        id="pricing"
+      >
         <div class="card">
-          <div class="product-image product1"></div>
+          <div class="product-image1 product1"></div>
           <div class="inner-card">
             <div class="product">Squeaky Balls</div>
             <ul>
@@ -148,9 +154,59 @@
             </button>
           </div>
         </div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card">
+          <div class="product-image product2"></div>
+          <div class="inner-card">
+            <div class="product">Dog Food</div>
+            <ul>
+              <li class="content">Chicken and rice formula</li>
+              <li class="content">Wholesome whole grains</li>
+              <li class="content">Healthy fruit and veggies</li>
+            </ul>
+            <div class="flex">
+              <p class="main-price price">$19.95</p>
+              <p class="old-price price">$28.75</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image product3"></div>
+          <div class="inner-card">
+            <div class="product">Training Treats</div>
+            <ul>
+              <li class="content">Tasty chicken recipe</li>
+              <li class="content">
+                Enhanced with DHA to support cognitive development
+              </li>
+              <li class="content">No meat by-products</li>
+            </ul>
+            <div class="flex">
+              <p class="main-price price">$19.95</p>
+              <p class="old-price price">$28.75</p>
+            </div>
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
+    <footer id="nav-footer">
+      <ul class="block">
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+        <li>
+          <a href="#">Terms</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <span>Copyright 2023, Duke's Delights</span>
+    </footer>
   </body>
 </html>
